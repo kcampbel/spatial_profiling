@@ -116,7 +116,7 @@ def combn2(x):
 # Obtain all marker intensitites for each pixel
 # Label pixels as nuclear (in nuclear TIFF), nonnuclear (not contained in nucleus), segment (all pixels in segment), and "outer" (segment alpha_shape +/- one pixel inevery direction
 segment_data = []
-for idx in segment_dict.keys():
+for idx in segmentation_dict.keys():
     if idx == 0:
         pass
     else:
